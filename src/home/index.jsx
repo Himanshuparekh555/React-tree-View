@@ -112,25 +112,8 @@ const data = [
       this.action = this.action.bind(this)
       this.state = {
         data: []
-    };    }
-  //   componentDidMount() {
-  //     axios
-  //         .get("https://www.mocky.io/v2/5bb85d723000005f00f93bb6")
-  //         .then(data => {
-  //             let transformedData = data.data.map(d => {
-  //                 return {
-  //                     text: d.text,
-  //                     nodes: [
-  //                         {
-  //                             text: "dummy 1",
-  //                             nodes: []
-  //                         }
-  //                     ]
-  //                 };
-  //             });
-  //             this.setState({ data: transformedData });
-  //         });
-  // }
+    };    
+  }s
     action (s) {
       console.log(this.refs.tree.getValues())
     }
